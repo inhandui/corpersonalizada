@@ -29,6 +29,7 @@ public class MainActivity extends AppCompatActivity {
     private static final String MEU_AZUL = "#FF2196F3";
     private static final String MEU_LARANJA = "#FFFF5722";
     private static final String MEU_VERDE = "#FF009688";
+    private static final String MEU_BRANCO = "#FFFFFFFF";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -64,6 +65,11 @@ public class MainActivity extends AppCompatActivity {
 
             }
         });
+
+        SharedPreferences sharedPreferences = getSharedPreferences(ARQUIVO_PRERENCIA, 0);
+        if (sharedPreferences.contains("corEscolhida")){
+            setBackground(sharedPreferences.getString("corEscolhida", ""));
+        }
     }
 
     private void setBackground(String cor) {
@@ -77,6 +83,8 @@ public class MainActivity extends AppCompatActivity {
             case "Verde":
                 layout.setBackgroundColor(Color.parseColor(MEU_VERDE));
                 break;
+            default:
+                layout.setBackgroundColor(Color.parseColor(MEU_BRANCO));
         }
     }
 }
