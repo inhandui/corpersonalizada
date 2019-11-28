@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">Cor Personalizada</string>
+    <string name="txt_corDeFundo">Escolha a cor de fundo</string>
 </resources>
