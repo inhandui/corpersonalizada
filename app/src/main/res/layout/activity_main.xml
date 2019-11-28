@@ -32,11 +32,10 @@
             android:id="@+id/radioAzul"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:shadowColor="@android:color/holo_blue_bright"
-            tools:text="@string/radio_azul" />
+            android:text="@string/radio_azul" />
 
         <RadioButton
-            android:id="@+id/rb_laranja"
+            android:id="@+id/radioLaranja"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/radio_laranja" />
@@ -47,4 +46,15 @@
             android:layout_height="wrap_content"
             android:text="@string/radio_verde" />
     </RadioGroup>
+
+    <Button
+        android:id="@+id/btnSalvar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="@string/btn_salvar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/radioGroup" />
 </androidx.constraintlayout.widget.ConstraintLayout>

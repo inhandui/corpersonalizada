@@ -4,4 +4,5 @@
     <string name="radio_azul">Azul</string>
     <string name="radio_laranja">Laranja</string>
     <string name="radio_verde">Verde</string>
+    <string name="btn_salvar">Salvar</string>
 </resources>
