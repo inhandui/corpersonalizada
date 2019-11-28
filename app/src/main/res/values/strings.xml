@@ -1,4 +1,7 @@
 <resources>
     <string name="app_name">Cor Personalizada</string>
     <string name="txt_corDeFundo">Escolha a cor de fundo</string>
+    <string name="radio_azul">Azul</string>
+    <string name="radio_laranja">Laranja</string>
+    <string name="radio_verde">Verde</string>
 </resources>

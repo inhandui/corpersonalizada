@@ -29,21 +29,22 @@
         app:layout_constraintTop_toBottomOf="@+id/txt_corDeFundo">
 
         <RadioButton
-            android:id="@+id/radioButton2"
+            android:id="@+id/radioAzul"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="RadioButton" />
+            android:shadowColor="@android:color/holo_blue_bright"
+            tools:text="@string/radio_azul" />
 
         <RadioButton
-            android:id="@+id/radioButton3"
+            android:id="@+id/rb_laranja"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="RadioButton" />
+            android:text="@string/radio_laranja" />
 
         <RadioButton
-            android:id="@+id/radioButton4"
+            android:id="@+id/radioVerde"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="RadioButton" />
+            android:text="@string/radio_verde" />
     </RadioGroup>
 </androidx.constraintlayout.widget.ConstraintLayout>
